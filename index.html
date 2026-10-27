@@ -1,751 +1,441 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <title>CelianLab — Atelier de création</title>
+    <meta
+        name="description"
+        content="CelianLab — atelier de création, maker, gaming, vidéo, laser et bricolage."
+    >
 
-    <meta name="description"
-          content="CelianLab — Établissement créatif et numérique">
-
-    <title>CelianLab — Établissement</title>
-
-    <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
-
 <body>
 
-    <!-- =====================================================
+    <!-- =========================
          HEADER
-    ====================================================== -->
+    ========================== -->
 
-    <header class="header">
+    <header class="topbar">
 
-        <a href="./index.html" class="logo">
+        <a href="./index.html" class="brand">
+            <span class="brand-mark">C</span>
 
-            <span class="logo-mark">C</span>
-
-            <span class="logo-text">
-                <strong>CELIAN</strong>
-                <small>LAB</small>
+            <span class="brand-text">
+                CELIANLAB
+                <small>ATELIER DE CRÉATION</small>
             </span>
-
         </a>
 
-
         <nav class="navigation">
-
-            <a href="./index.html">
-                ACCUEIL
-            </a>
-
-            <a href="./streaming.html">
-                STREAMING
-            </a>
-
-            <a href="./videos.html">
-                VIDÉOS
-            </a>
-
-            <a href="./maker.html">
-                MAKER
-            </a>
-
-            <a href="./contact.html">
-                CONTACT
-            </a>
-
+            <a href="./index.html" class="active">Accueil</a>
+            <a href="./streaming.html">Streaming</a>
+            <a href="./videos.html">Vidéos</a>
+            <a href="./maker.html">Maker</a>
+            <a href="./boutique.html">Boutique</a>
+            <a href="./contact.html">Contact</a>
         </nav>
 
-
-        <div class="status">
-
-            <span class="status-dot"></span>
-
-            <span>
-                EN LIGNE
-            </span>
-
+        <div class="workshop-status">
+            <span class="status-light"></span>
+            ATELIER OUVERT
         </div>
 
     </header>
 
 
-
-    <!-- =====================================================
-         MAIN
-    ====================================================== -->
+    <!-- =========================
+         ATELIER
+    ========================== -->
 
     <main>
 
+        <section class="workshop">
 
-        <!-- =================================================
-             HERO
-        ================================================== -->
+            <!-- Mur arrière -->
 
-        <section class="hero" id="accueil">
+            <div class="back-wall">
 
-            <div class="hero-content">
+                <!-- Enseigne -->
 
-                <p class="eyebrow">
-                    CELIANLAB // ÉTABLISSEMENT
-                </p>
+                <div class="workshop-sign">
 
-
-                <h1>
-
-                    BIENVENUE
-
-                    <br>
-
-                    AU
-
-                    <span>CELIANLAB</span>
-
-                </h1>
-
-
-                <p class="hero-description">
-
-                    Un espace dédié au gaming, à la création vidéo,
-                    au maker et aux projets numériques.
-
-                </p>
-
-
-                <a href="#departements"
-                   class="primary-button">
-
-                    EXPLORER
-                    L'ÉTABLISSEMENT
-
-                    <span>→</span>
-
-                </a>
-
-            </div>
-
-
-            <!-- Décoration -->
-
-            <div class="hero-decoration">
-
-                <div class="circle circle-1"></div>
-
-                <div class="circle circle-2"></div>
-
-                <div class="cross cross-1">
-                    +
-                </div>
-
-                <div class="cross cross-2">
-                    +
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =================================================
-             INFORMATIONS
-        ================================================== -->
-
-        <section class="info-bar">
-
-
-            <div class="info-item">
-
-                <span class="info-number">
-                    01
-                </span>
-
-                <div>
-
-                    <small>
-                        ÉTABLISSEMENT
-                    </small>
-
-                    <strong>
+                    <div class="sign-top">
                         CELIANLAB
-                    </strong>
+                    </div>
+
+                    <div class="sign-bottom">
+                        ATELIER DE CRÉATION
+                    </div>
 
                 </div>
 
-            </div>
+
+                <!-- Petite plaque -->
+
+                <div class="wall-label">
+                    <span>01</span>
+                    ESPACE CRÉATIF
+                </div>
 
 
+                <!-- Étagère -->
 
-            <div class="info-item">
+                <div class="shelf">
 
-                <span class="info-number">
-                    02
-                </span>
+                    <div class="shelf-board shelf-top"></div>
 
-                <div>
+                    <div class="shelf-item box-one">
+                        <span>LAB</span>
+                    </div>
 
-                    <small>
-                        TYPE
-                    </small>
+                    <div class="shelf-item box-two">
+                        3D
+                    </div>
 
-                    <strong>
-                        CRÉATIF / NUMÉRIQUE
-                    </strong>
+                    <div class="shelf-item bottle">
+                        ●
+                    </div>
+
+                    <div class="shelf-board shelf-bottom"></div>
 
                 </div>
 
-            </div>
 
+                <!-- Tableau d'outils -->
 
+                <div class="pegboard">
 
-            <div class="info-item">
+                    <div class="pegboard-title">
+                        OUTILS
+                    </div>
 
-                <span class="info-number">
-                    03
-                </span>
-
-                <div>
-
-                    <small>
-                        STATUT
-                    </small>
-
-                    <strong>
-                        ACTIF
-                    </strong>
+                    <div class="tool hammer"></div>
+                    <div class="tool screwdriver"></div>
+                    <div class="tool ruler"></div>
+                    <div class="tool plier"></div>
+                    <div class="tool wrench"></div>
 
                 </div>
 
-            </div>
 
+                <!-- Petite horloge -->
 
-        </section>
+                <div class="clock">
+                    <span class="clock-hand hour"></span>
+                    <span class="clock-hand minute"></span>
+                    <span class="clock-center"></span>
+                </div>
 
 
-
-        <!-- =================================================
-             DEPARTEMENTS
-        ================================================== -->
-
-        <section class="activities"
-                 id="departements">
-
-
-            <div class="section-title">
-
-                <p class="eyebrow">
-                    02 // DÉPARTEMENTS
-                </p>
-
-
-                <h2>
-
-                    EXPLOREZ
-
-                    <br>
-
-                    <span>NOS ESPACES</span>
-
-                </h2>
-
-
-                <p>
-                    Sélectionnez un espace pour accéder à son contenu.
-                </p>
-
-            </div>
-
-
-
-            <div class="departments">
-
-
-                <!-- =========================================
-                     STREAMING
-                ========================================== -->
-
-                <a href="./streaming.html"
-                   class="department department-large">
-
-
-                    <div class="department-number">
-                        01
-                    </div>
-
-
-                    <div class="department-icon">
-                        ▶
-                    </div>
-
-
-                    <div class="department-content">
-
-                        <p>
-                            CELIANLAB / STREAMING
-                        </p>
-
-
-                        <h3>
-
-                            STUDIO
-
-                            <br>
-
-                            STREAMING
-
-                        </h3>
-
-
-                        <span class="enter">
-
-                            ENTRER DANS LE STUDIO
-                            →
-
-                        </span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- =========================================
-                     VIDEOS
-                ========================================== -->
-
-                <a href="./videos.html"
-                   class="department">
-
-
-                    <div class="department-number">
-                        02
-                    </div>
-
-
-                    <div class="department-icon">
-                        ◉
-                    </div>
-
-
-                    <div class="department-content">
-
-                        <p>
-                            CELIANLAB / MEDIA
-                        </p>
-
-
-                        <h3>
-
-                            STUDIO
-
-                            <br>
-
-                            VIDÉO
-
-                        </h3>
-
-
-                        <span class="enter">
-
-                            VOIR LES VIDÉOS
-                            →
-
-                        </span>
-
-                    </div>
-
-                </a>
-
-
-
-                <!-- =========================================
-                     MAKER
-                ========================================== -->
+                <!-- =========================
+                     ZONE MAKER
+                ========================== -->
 
                 <a href="./maker.html"
-                   class="department">
+                   class="work-zone maker-zone"
+                   aria-label="Découvrir l'atelier Maker">
 
+                    <div class="zone-number">01</div>
 
-                    <div class="department-number">
-                        03
-                    </div>
+                    <div class="zone-content">
 
+                        <span class="zone-icon">⚒</span>
 
-                    <div class="department-icon">
-                        ⌁
-                    </div>
-
-
-                    <div class="department-content">
-
-                        <p>
-                            CELIANLAB / WORKSHOP
-                        </p>
-
-
-                        <h3>
-
-                            ATELIER
-
-                            <br>
-
-                            MAKER
-
-                        </h3>
-
-
-                        <span class="enter">
-
-                            ENTRER DANS L'ATELIER
-                            →
-
-                        </span>
+                        <div>
+                            <strong>ATELIER MAKER</strong>
+                            <small>BOIS · LASER · DIY</small>
+                        </div>
 
                     </div>
+
+                    <span class="zone-arrow">→</span>
 
                 </a>
 
 
+                <!-- =========================
+                     ZONE VIDEO
+                ========================== -->
 
-                <!-- =========================================
-                     BOUTIQUE
-                ========================================== -->
+                <a href="./videos.html"
+                   class="work-zone video-zone"
+                   aria-label="Voir les vidéos">
+
+                    <div class="zone-number">02</div>
+
+                    <div class="zone-content">
+
+                        <span class="zone-icon">▣</span>
+
+                        <div>
+                            <strong>STUDIO VIDÉO</strong>
+                            <small>VIDÉOS · MONTAGE · CRÉATION</small>
+                        </div>
+
+                    </div>
+
+                    <span class="zone-arrow">→</span>
+
+                </a>
+
+
+                <!-- =========================
+                     ZONE STREAMING
+                ========================== -->
+
+                <a href="./streaming.html"
+                   class="work-zone streaming-zone"
+                   aria-label="Accéder au streaming">
+
+                    <div class="zone-number">03</div>
+
+                    <div class="zone-content">
+
+                        <span class="zone-icon">◉</span>
+
+                        <div>
+                            <strong>COIN STREAM</strong>
+                            <small>TWITCH · GAMING · LIVE</small>
+                        </div>
+
+                    </div>
+
+                    <span class="zone-arrow">→</span>
+
+                </a>
+
+
+                <!-- =========================
+                     ZONE BOUTIQUE
+                ========================== -->
 
                 <a href="./boutique.html"
-                   class="department">
+                   class="work-zone shop-zone"
+                   aria-label="Voir les créations">
 
+                    <div class="zone-number">04</div>
 
-                    <div class="department-number">
-                        04
-                    </div>
+                    <div class="zone-content">
 
+                        <span class="zone-icon">□</span>
 
-                    <div class="department-icon">
-                        ◇
-                    </div>
-
-
-                    <div class="department-content">
-
-                        <p>
-                            CELIANLAB / STORE
-                        </p>
-
-
-                        <h3>
-
-                            BOUTIQUE
-
-                            <br>
-
-                            CRÉATIONS
-
-                        </h3>
-
-
-                        <span class="enter">
-
-                            ACCÉDER À LA BOUTIQUE
-                            →
-
-                        </span>
+                        <div>
+                            <strong>BOUTIQUE</strong>
+                            <small>CRÉATIONS · OBJETS · MODÈLES</small>
+                        </div>
 
                     </div>
+
+                    <span class="zone-arrow">→</span>
 
                 </a>
 
 
+                <!-- =========================
+                     ÉTABLI
+                ========================== -->
 
-                <!-- =========================================
-                     ABOUT
-                ========================================== -->
+                <div class="workbench">
 
-                <a href="./about.html"
-                   class="department department-large">
+                    <div class="bench-top">
 
+                        <div class="bench-clamp"></div>
 
-                    <div class="department-number">
-                        05
+                        <div class="bench-paper">
+                            <span>CELIANLAB</span>
+                            <small>PROJET EN COURS</small>
+                        </div>
+
+                        <div class="bench-tools">
+                            <span>✎</span>
+                            <span>▱</span>
+                            <span>⚙</span>
+                        </div>
+
                     </div>
 
+                    <div class="bench-front">
 
-                    <div class="department-icon">
-                        C
+                        <div class="drawer">
+                            <span>01</span>
+                        </div>
+
+                        <div class="drawer">
+                            <span>02</span>
+                        </div>
+
+                        <div class="drawer">
+                            <span>03</span>
+                        </div>
+
                     </div>
 
+                    <div class="bench-leg left"></div>
+                    <div class="bench-leg right"></div>
 
-                    <div class="department-content">
-
-                        <p>
-                            CELIANLAB / INFORMATION
-                        </p>
+                </div>
 
 
-                        <h3>
+                <!-- Écran sur établi -->
 
-                            À PROPOS
+                <div class="monitor">
 
-                            <br>
+                    <div class="monitor-screen">
 
-                            DU LAB
+                        <span class="terminal-line">
+                            CELIANLAB_
+                        </span>
 
-                        </h3>
+                        <span class="terminal-line">
+                            PROJET #042
+                        </span>
 
-
-                        <span class="enter">
-
-                            DÉCOUVRIR LE CELIANLAB
-                            →
-
+                        <span class="terminal-line">
+                            CRÉATION EN COURS...
                         </span>
 
                     </div>
 
-                </a>
+                    <div class="monitor-neck"></div>
+                    <div class="monitor-base"></div>
+
+                </div>
 
 
+                <!-- Caméra -->
 
-                <!-- =========================================
-                     CONTACT
-                ========================================== -->
+                <div class="camera">
 
-                <a href="./contact.html"
-                   class="department">
-
-
-                    <div class="department-number">
-                        06
+                    <div class="camera-body">
+                        <div class="camera-lens"></div>
                     </div>
 
-
-                    <div class="department-icon">
-                        @
+                    <div class="camera-tripod">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
 
-
-                    <div class="department-content">
-
-                        <p>
-                            CELIANLAB / ADMINISTRATION
-                        </p>
+                </div>
 
 
-                        <h3>
+                <!-- Sol -->
 
-                            CONTACT
-
-                            <br>
-
-                            & INFOS
-
-                        </h3>
-
-
-                        <span class="enter">
-
-                            CONTACTER LE LAB
-                            →
-
-                        </span>
-
-                    </div>
-
-                </a>
-
+                <div class="floor-lines"></div>
 
             </div>
 
         </section>
 
 
+        <!-- =========================
+             PRESENTATION
+        ========================== -->
 
-        <!-- =================================================
-             RÉSEAUX
-        ================================================== -->
+        <section class="intro-section">
 
-        <section class="external">
-
-
-            <div class="section-title">
-
-                <p class="eyebrow">
-                    03 // RÉSEAUX
-                </p>
-
-
-                <h2>
-
-                    RETROUVEZ
-
-                    <br>
-
-                    <span>LE CELIANLAB</span>
-
-                </h2>
-
+            <div class="section-number">
+                01 / L'ATELIER
             </div>
 
+            <div class="intro-grid">
 
+                <div>
+                    <h1>
+                        CRÉER.<br>
+                        TESTER.<br>
+                        <em>PARTAGER.</em>
+                    </h1>
+                </div>
 
-            <div class="external-grid">
+                <div class="intro-text">
 
+                    <p class="intro-lead">
+                        Bienvenue chez CelianLab.
+                    </p>
 
-                <a href="https://www.twitch.tv/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="external-link">
+                    <p>
+                        Un espace où le numérique rencontre le concret :
+                        gaming, streaming, vidéo, bricolage, laser,
+                        fabrication et projets en tout genre.
+                    </p>
 
-                    <span>
-                        TWITCH
-                    </span>
+                    <p>
+                        Chaque projet commence ici, sur l'établi.
+                    </p>
 
-                    <strong>
-                        ↗
-                    </strong>
+                    <a href="./about.html" class="wood-button">
+                        DÉCOUVRIR CELIANLAB
+                        <span>→</span>
+                    </a>
 
-                </a>
-
-
-
-                <a href="https://www.youtube.com/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="external-link">
-
-                    <span>
-                        YOUTUBE
-                    </span>
-
-                    <strong>
-                        ↗
-                    </strong>
-
-                </a>
-
-
-
-                <a href="https://www.tiktok.com/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="external-link">
-
-                    <span>
-                        TIKTOK
-                    </span>
-
-                    <strong>
-                        ↗
-                    </strong>
-
-                </a>
-
-
-
-                <a href="https://www.instagram.com/"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="external-link">
-
-                    <span>
-                        INSTAGRAM
-                    </span>
-
-                    <strong>
-                        ↗
-                    </strong>
-
-                </a>
-
+                </div>
 
             </div>
 
         </section>
 
 
+        <!-- =========================
+             CONTACT / PLAQUE
+        ========================== -->
 
-        <!-- =================================================
-             CONTACT
-        ================================================== -->
+        <section class="contact-board">
 
-        <section class="contact"
-                 id="contact">
+            <div class="contact-board-inner">
 
+                <div>
+                    <span class="small-label">BESOIN DE ME JOINDRE ?</span>
 
-            <p class="eyebrow">
-                04 // COMMUNICATION
-            </p>
+                    <h2>
+                        UN PROJET ?
+                        <br>
+                        <em>PARLONS-EN.</em>
+                    </h2>
+                </div>
 
+                <a href="./contact.html" class="contact-button">
+                    CONTACTER CELIAN
+                    <span>→</span>
+                </a>
 
-            <h2>
-                UNE QUESTION ?
-            </h2>
-
-
-            <p>
-
-                Une idée, un projet ou simplement envie
-                de contacter le CelianLab ?
-
-            </p>
-
-
-            <a href="./contact.html"
-               class="primary-button">
-
-                CONTACTER LE LAB
-
-                <span>
-                    →
-                </span>
-
-            </a>
-
+            </div>
 
         </section>
-
 
     </main>
 
 
-
-    <!-- =====================================================
+    <!-- =========================
          FOOTER
-    ====================================================== -->
+    ========================== -->
 
-    <footer>
+    <footer class="footer">
 
+        <div class="footer-brand">
+            CELIANLAB
+            <span>ATELIER DE CRÉATION</span>
+        </div>
 
-        <div class="footer-logo">
+        <div class="footer-links">
 
-            <span class="logo-mark">
-                C
-            </span>
-
-            <strong>
-                CELIANLAB
-            </strong>
+            <a href="./streaming.html">Streaming</a>
+            <a href="./videos.html">Vidéos</a>
+            <a href="./maker.html">Maker</a>
+            <a href="./boutique.html">Boutique</a>
+            <a href="./contact.html">Contact</a>
 
         </div>
 
-
-        <p>
+        <div class="footer-copy">
             © 2026 CELIANLAB
-        </p>
-
-
-        <p>
-            ÉTABLISSEMENT CRÉATIF & NUMÉRIQUE
-        </p>
-
+        </div>
 
     </footer>
 
-
 </body>
-
 </html>
